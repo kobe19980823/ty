@@ -1,0 +1,62 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,select,td,th,figure{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+	color: ;
+}
+body{
+    font-family: "宋体";
+    /*background: #333;*/
+    overflow-x: hidden;
+}
+#box1{
+    width: 100%;
+    height: 114px;
+    /*background: blue;*/
+    margin: auto;
+   
+}
+#box1-1{
+	width: 1175px;
+	height: 60px;
+	/*background: black;*/
+	margin: auto;
+}
+#box1-1 img{
+	/*padding-top: 20px;/*/
+    display: inline-block;
+}
+#box1-2{
+    width: 120px;
+    height: 60px;
+    /*background: red;*/
+    display: inline-block;
+    /*padding-top: 20px;*/
+   margin-left: 20px;
+}
+#box1 #box1-2 p:nth-child(1){
+ font-weight: 700;
+ padding-top: 20px;
+
+}
+#box1-2 p:nth-child(2){
+    display: block;
+    width: 60px;
+    height: 20px;
+    background: #3F3F3F;
+    font-size: 14px;
+
+}
+#box1-3{
+	display: inline-block;
+}
+#box1 #box1-3 p:nth-child(1){
+	font-weight: 200;
+}
